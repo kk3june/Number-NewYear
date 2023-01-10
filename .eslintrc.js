@@ -3,8 +3,8 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['prettier'],
   rules: {
-    'no-console': 'error',
     indent: ['error', 4],
     semi: ['error', 'always'],
+    'no-console': 'error',
   },
 };
